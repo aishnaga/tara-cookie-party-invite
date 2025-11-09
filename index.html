@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited!</title>
+    
+    <!-- 1. Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 2. Load custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- 3. Add custom styles -->
+    <style>
+        /* Apply the 'Inter' font as the default sans-serif font */
+        html {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Create a custom class for the festive 'Pacifico' font */
+        .font-cursive {
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+</head>
+<body class="bg-pink-50 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main Invitation Card -->
+    <div class="bg-white w-full max-w-md rounded-2xl shadow-xl overflow-hidden border-2 border-pink-200">
+        
+        <!-- Thematic Image Header (Santa Image) -->
+        <img src="https://assets.opengpt.chat/v1/or_98295b9542a275464a854d19450325d7" 
+             alt="A cutesy fun jolly santa decorating christmas cookies and has some gifts next to him, wrapped and unwrapped." 
+             class="w-full h-48 object-cover">
+
+        <!-- Content Section -->
+        <div class="p-6 md:p-8">
+            
+            <!-- Festive Greeting -->
+            <h1 class="font-cursive text-5xl text-pink-500 mb-4 text-center">
+                You're Invited!
+            </h1>
+            <p class="text-gray-700 text-lg mb-6 text-center">
+                Get ready for a super fun afternoon of cookie decorating, crafts, and festive giggles!
+            </p>
+
+            <!-- Party Details -->
+            <div class="space-y-4 mb-8">
+                <!-- WHEN -->
+                <div class="flex items-center">
+                    <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <span class="ml-3 text-gray-800 font-medium">Saturday, December 6th @ 4:00 PM</span>
+                </div>
+                
+                <!-- WHERE -->
+                <div class="flex items-center">
+                    <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <span class="ml-3 text-gray-800 font-medium">9308 Springwood Drive, Austin, TX 78750</span>
+                </div>
+                
+                <!-- SECRET SANTA -->
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-pink-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V6a2 2 0 10-2 2h2zm0 0V6a2 2 0 10-2 2h2zm0 0V6a2 2 0 112 2h-2zm0 0V6a2 2 0 10-2 2h2zm0 0V6a2 2 0 112 2h-2zM4.929 9.929a4 4 0 010 5.657l-1.414 1.414A6 6 0 005.657 5.657L4.243 4.243a6 6 0 00-5.657 5.657l1.414-1.414zM19.071 9.929a4 4 0 000 5.657l1.414 1.414a6 6 0 01-5.657-5.657L19.071 4.243a6 6 0 015.657 5.657l-1.414-1.414z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 100-18 9 9 0 000 18z"></path></Cg></svg>
+                    <span class="ml-3 text-gray-800">
+                        <span class="font-medium">Secret Santa:</span> suggested gift price $10
+                    </span>
+                </div>
+
+                <!-- COOKIE DECORATING -->
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-pink-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.921-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                    <span class="ml-3 text-gray-800">
+                        <span class="font-medium">Cookie Decorating:</span> We'll have all the cookies, frosting, and sprinkles!
+                    </span>
+                </div>
+            </div>
+
+            <!-- RSVP Section -->
+            <div id="rsvp-section" class="mt-8 pt-6 border-t border-pink-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Will you be joining?</h2>
+                
+                <!-- Guest Name Input -->
+                <div class="mb-4">
+                    <label for="guest-name" class="block text-sm font-medium text-gray-700 mb-2">
+                        Your Name
+                    </label>
+                    <input type="text" id="guest-name" name="guest-name" class="w-full rounded-md border-gray-300 shadow-sm focus:border-pink-500 focus:ring-pink-500" placeholder="e.g., Jane Doe">
+                </div>
+
+                <!-- Error Message (Hidden by default) -->
+                <div id="error-message" class="hidden my-4 p-3 bg-red-100 border border-red-300 rounded-lg text-center">
+                    <p id="error-text" class="text-sm font-medium text-red-700">Something went wrong.</p>
+                </div>
+
+                <!-- RSVP Buttons -->
+                <div class="mt-4 grid grid-cols-3 gap-3">
+                    <button id="rsvp-yes" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-teal-500 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-400 transition-all duration-150 disabled:opacity-50">
+                        Yes
+                    </button>
+                    <button id="rsvp-maybe" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300 transition-all duration-150 disabled:opacity-50">
+                        Maybe
+                    </button>
+                    <button id="rsvp-no" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-pink-500 hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400 transition-all duration-150 disabled:opacity-50">
+                        No
+                    </button>
+                </div>
+            </div>
+
+            <!-- Confirmation Message (Hidden by default) -->
+            <div id="confirmation-message" class="hidden mt-8 pt-6 border-t border-pink-100 text-center">
+                <h2 class="text-3xl font-bold text-teal-700">Thanks for your RSVP!</h2>
+                <p id="confirmation-text" class="text-gray-700 mt-2 text-lg"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // ------------------------------------------------------------------
+        // --- IMPORTANT ---
+        // Paste your Google Apps Script URL here once you deploy it.
+        const SCRIPT_URL = 'YOUR_APPS_SCRIPT_URL_GOES_HERE';
+        // ------------------------------------------------------------------
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all the necessary elements
+            const rsvpSection = document.getElementById('rsvp-section');
+            const confirmationMessage = document.getElementById('confirmation-message');
+            const confirmationText = document.getElementById('confirmation-text');
+            const guestNameInput = document.getElementById('guest-name');
+            const likesTextarea = document.getElementById('likes');
+
+            const btnYes = document.getElementById('rsvp-yes');
+            const btnMaybe = document.getElementById('rsvp-maybe');
+            const btnNo = document.getElementById('rsvp-no');
+            
+            const errorMessage = document.getElementById('error-message');
+            const errorText = document.getElementById('error-text');
+
+            // This function handles the RSVP submission
+            async function handleRsvp(response) {
+                const guestName = guestNameInput.value.trim();
+                const likes = likesTextarea.value.trim();
+
+                // 1. Validation
+                if (!guestName) {
+                    showError("Please enter your name!");
+                    return;
+                }
+                
+                // 2. Hide error, show loading state
+                hideError();
+                setLoading(true);
+
+                // 3. Prepare data for sending
+                const formData = new FormData();
+                formData.append('guestName', guestName);
+                formData.append('rsvpStatus', response);
+                formData.append('likes', likes);
+
+                // 4. Send data to Google Apps Script
+                try {
+                    const res = await fetch(SCRIPT_URL, {
+                        method: 'POST',
+                        body: formData,
+                    });
+
+                    if (!res.ok) {
+                        throw new Error(`HTTP error! status: ${res.status}`);
+                    }
+
+                    const result = await res.json();
+
+                    if (result.status === 'success') {
+                        // 5. Show confirmation on success
+                        rsvpSection.classList.add('hidden');
+                        if (response === 'Yes') {
+                            confirmationText.textContent = "Yay! We can't wait to see you! We've noted your favorite things for Secret Santa.";
+                        } else if (response === 'Maybe') {
+                            confirmationText.textContent = "We hope you can make it! Thanks for letting us know.";
+                        } else {
+                            confirmationText.textContent = "We'll miss you! Thanks for letting us know.";
+                        }
+                        confirmationMessage.classList.remove('hidden');
+                    } else {
+                        throw new Error(result.message || 'The script reported an error.');
+                    }
+
+                } catch (error) {
+                    // 6. Show error on failure
+                    console.error('Error submitting RSVP:', error);
+                    showError('Oh no! Something went wrong. Please try again.');
+                    setLoading(false); // Re-enable form
+                }
+            }
+
+            // --- Helper Functions ---
+
+            function setLoading(isLoading) {
+                btnYes.disabled = isLoading;
+                btnMaybe.disabled = isLoading;
+                btnNo.disabled = isLoading;
+
+                // Show loading text
+                btnYes.textContent = isLoading ? '...' : 'Yes';
+                btnMaybe.textContent = isLoading ? '...' : 'Maybe';
+                btnNo.textContent = isLoading ? '...' : 'No';
+            }
+
+            function showError(message) {
+                errorMessage.classList.remove('hidden');
+                errorText.textContent = message;
+            }
+
+            function hideError() {
+                errorMessage.classList.add('hidden');
+                errorText.textContent = '';
+            }
+
+            // Add click listeners to the buttons
+            btnYes.addEventListener('click', () => handleRsvp('Yes'));
+            btnMaybe.addEventListener('click', () => handleRsvp('Maybe'));
+            btnNo.addEventListener('click', () => handleRsvp('No'));
+            
+            // Hide error message when user starts typing again
+            guestNameInput.addEventListener('input', hideError);
+        });
+    </script>
+
+</body>
+</html>
